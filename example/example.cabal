@@ -1,0 +1,10 @@
+cabal-version: 3.4
+name: example
+version: 0.1.0.0
+
+executable example
+    default-language: GHC2024
+    ghc-options: -Wall
+    main-is: Example.hs
+    hs-source-dirs: .
+    build-depends: base, cc-cedict, streaming, text, containers
